@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akan Name Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Akan Name Generator</h1>
+    <main>
+        <p>This is a simple website where one can come up with names based on days of the week. it calculates the day of tne week then assigns a name depending on the gender.</p>
+        <form id="akanForm">
+            <label for="date">Date:</label>
+            <input type="number" id="day" name="day" min="1" max="31" placeholder="date" required><br>
+            <label for="month">Month:</label>
+            <input type="number" name="month" min="1" max="12" id="month" placeholder="month" required><br>
+            <label for="year">Year:</label>
+            <input type="number" name="year" id="year" placeholder="year"required> <br>
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <button type="submit">Submit</button>
+        </form>
+        <section>
+            <p>Congratulations this is your Akan name.</p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
