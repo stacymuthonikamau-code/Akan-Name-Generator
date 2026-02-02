@@ -20,7 +20,7 @@ main{
     margin: 0 auto;
     text-align: center;
     border: 3px solid rgb(173, 87, 254);
-    margin-top: 70px;
+    margin-top: 60px;
 }
 button{
     background-color: rgb(175, 106, 240);
@@ -39,4 +39,7 @@ button:visited{
 }
 input{
     border: 1px solid black;
+}
+footer{
+    position: fixed;
 }
