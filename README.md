@@ -33,3 +33,4 @@ https://stacymuthonikamau-code.github.io/Akan-Name-Generator/
 -JS
 
 ## License
+-MIT
